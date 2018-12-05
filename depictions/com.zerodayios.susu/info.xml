@@ -1,0 +1,31 @@
+<package>
+	<id>com.thuan.susu</id>
+	<name>Susu</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>Anemone,Snowboard</package>
+	</dependencies>
+	<descriptionlist>
+		<description>theme đơn giản style gradient với 230 icons,3 AE(Anemone)</description>
+		<description>Welcome To Repo Zeroday
+		             Chúc Bạn 1 Ngày Tốt Đẹp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>ss.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>ss1.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>ss2.jpg</image>
+		</screenshot>
+	</screenshots>
+	
+</package>

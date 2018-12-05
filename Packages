@@ -1,4 +1,4 @@
-Package: com.thuan.ants
+Package: com.zerodayios.ants
 Name: Ants
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
@@ -7,12 +7,13 @@ Maintainer: thuan_vn <thuanvodka@gmail.com>
 Author: Spark
 Section: Tweaks
 Version: 1.0.1-1
-Filename: ./debs/com.thuan.ants.deb
-Size: 75820
-MD5sum: 231e84f346fa576a62f57822c61f88c7
-Depiction: https://zerodayios.github.io/depictions/?p=com.thuan.ants
+Homepage: https://zerodayios.github.io
+Filename: ./debs/com.zerodayios.ants.deb
+Size: 75836
+MD5sum: eca5f9211e75a37d2c04d3f4e08b42e6
+Depiction: https://zerodayios.github.io/depictions/?p=com.zerodayios.ants
 
-Package: com.thuan.susu
+Package: com.zerodayios.susu
 Name: Susu
 Version: 1.0
 Architecture: iphoneos-arm
@@ -21,7 +22,7 @@ Section: Themes
 Maintainer: thuan_vn <thuanvodka@gmail.com>
 Author: thuan_vn <thuanvodka@gmail.com>
 Homepage: https://zerodayios.github.io
-Filename: ./debs/com.thuan.susu.deb
-Size: 16177476
-MD5sum: f93e4984e76ed984234a1e500d6efc9d
-Depiction: https://zerodayios.github.io/depictions/?p=com.thuan.susu
+Filename: ./debs/com.zerodayios.susu.deb
+Size: 16176866
+MD5sum: c1db4a9cb880d255c58205ef45dbfd2b
+Depiction: https://zerodayios.github.io/depictions/?p=com.zerodayios.susu
