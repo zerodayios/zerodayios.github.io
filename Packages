@@ -1,0 +1,27 @@
+Package: com.thuan.ants
+Name: Ants
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: A classic iOS tweak!
+Maintainer: thuan_vn <thuanvodka@gmail.com>
+Author: Spark
+Section: Tweaks
+Version: 1.0.1-1
+Filename: ./debs/com.thuan.ants.deb
+Size: 75820
+MD5sum: 231e84f346fa576a62f57822c61f88c7
+Depiction: https://zerodayios.github.io/depictions/?p=com.thuan.ants
+
+Package: com.thuan.susu
+Name: Susu
+Version: 1.0
+Architecture: iphoneos-arm
+Description: theme phong cách gradient
+Section: Themes
+Maintainer: thuan_vn <thuanvodka@gmail.com>
+Author: thuan_vn <thuanvodka@gmail.com>
+Homepage: https://zerodayios.github.io
+Filename: ./debs/com.thuan.susu.deb
+Size: 16177476
+MD5sum: f93e4984e76ed984234a1e500d6efc9d
+Depiction: https://zerodayios.github.io/depictions/?p=com.thuan.susu

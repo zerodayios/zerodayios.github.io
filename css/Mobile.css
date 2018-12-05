@@ -1,0 +1,105 @@
+ body {
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+          }
+           
+          a:link {
+            color: #00D300;
+          }
+          a:visited {
+              color: #000;
+          }
+          a:hover {
+              color:#FF0000;
+          }
+          
+          #repo_p {
+              font-size:5em; 
+              font-weight:100; 
+              margin:2px 0 0 0;
+          }
+          
+          #social {
+              margin:20px 0 0 0;
+			  font-size:2em;
+          }
+
+#header {
+              width:100%;
+              margin:0;
+          }
+          
+          #headercontainer {
+              background-color:#ededed; 
+              padding:0 0 30px 0;
+          }
+          
+          #avatar {
+              margin:2%;
+              height:35%;
+              width:35%;
+          }
+		  
+          #twitter {
+              margin:10px 25px 0 0;
+          } 
+          
+          #facebook {
+              margin:10px 0 0 25px;
+          }
+          
+          .twitter_img {
+              width:100px;
+              height:100px;
+          }
+		  #follow {
+			  font-size:1.5em;
+		  }
+          
+		  #ipajb {
+              font-size:2.5em;
+              font-weight:100;
+          }
+		  .grid_ipa {
+              width:350px; 
+              height:350px;
+          }
+		  .grid_cellipa {
+              display:inline-block; 
+              width:360px;
+          }
+		  
+		  
+		  
+          #projects {
+              font-size:4.0em;
+              font-weight:100;
+          }
+          
+          #grid {
+              width:100%;
+              margin:0 0 0 8%;
+          }
+          
+          .grid_cell {
+              display:inline-block; 
+              width:650px;
+          }
+          
+          .grid_img {
+              width:640px; 
+              height:1136px;
+          }
+          
+          .grid_cell p {
+              font-size:2.0em;
+          }
+          
+          .grid_p {
+              font-size:2.2em;
+              font-weight:200;
+          }
+		  
+		  .single-footer-widget {
+			  font-size:1.5em;
+			  color:#000;
+		  }
