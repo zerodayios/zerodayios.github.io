@@ -1,179 +1,48 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		
-        <title>Zeroday-Repo</title>
-		<link rel="icon" href="img/icons/fav.png" class="next-head" />
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <script data-ionic="inject">
+    (function(w){var i=w.Ionic=w.Ionic||{};i.version='3.9.3';i.angular='5.2.11';i.staticDir='build/';})(window);
+  </script>
+  <meta charset="UTF-8">
+  <title>appionic3.2.0</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
 
-		 <!-- Import CSS for different screen sizes -->
-        <link rel="stylesheet" media="screen and (min-device-width: 768px)" href="css/Desktop.css" />
-        <link rel="stylesheet" media="screen and (max-device-width: 767px)" href="css/Mobile.css" />
-        
-    </head>
-    
-<body style="padding:0; margin:0;">
-
-<!-- First off, we want a nice header div. -->
-
-<div id="headercontainer">
-<div id="header">
-  <!-- left align image -->
-  <center>
-  <img id="avatar" src="img/icons/Devices.png" alt="avatar" />
-  <p id="repo_p"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://zerodayios.github.io/">Add Repo To Cydia</a></p>
-  <!--ads-->
-     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-           (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-6366575240723910",
-                  enable_page_level_ads: true
-                                                    });
-         </script>
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4e8ef7">
   
-  </center>
-</div>
+  <!-- cordova.js required for cordova apps -->
+  <script src="cordova.js"></script>
 
-<div id="social">
-  <center>
-  <a href="https://twitter.com/thuanvodka" target="_blank" id="twitter"><img class="twitter_img" src="img/icons/twitter.png" /></a>
-  <a href="https://facebook.com/MrthuanJB" target="_blank" id="facebook"><img class="twitter_img" src="img/icons/facebook.png" /></a>
-  <p id="follow"> Follow Me</p>
-  <a href="https://zerodayios.github.io/package/xox.mobileconfig">Install XoX</a>
-  <a href="https://zerodayios.github.io/package/imod.mobileconfig">Install iMod</a>
-  </center>
-</div>
+  <!-- un-comment this code to enable service worker
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.log('Error', err));
+    }
+  </script>-->
 
-</div>
+  <link href="build/main.css" rel="stylesheet">
 
+</head>
+<body>
 
-<!-- Projects -->
+  <!-- Ionic's root component and where the app will load -->
+  <ion-app></ion-app>
 
-<div id="projects_container" style="background-color:#ffffff">
+  <!-- The polyfills js is generated during the build process -->
+  <script src="build/polyfills.js"></script>
 
-<center>
+  <!-- The vendor js is generated during the build process
+       It contains all of the dependencies in node_modules -->
+  <script src="build/vendor.js"></script>
 
-<p id="projects">Top Tweaks</p>
+  <!-- The bundle js is generated during the build process -->
+  <script src="build/main.js"></script>
 
-</center>
-
-<!-- grid -->
-
-<div id="grid" style="padding:0; width:90%; text-align:center; margin:auto;">
-  
-  <a href="http://cydia.saurik.com/package/com.anemonetheming.anemone/"><div class="grid_cell">
-    <center>
-    <img class="grid_img" src="img/anemone.jpg" alt="img" />
-    <p class="grid_p">Tweak: Anemone</p>
-    <p class="grid_t" style="color:#000000">Quản lý <br>theming tuyệt vời cho ios 7-11</p>
-    </center>
-    <br />
-  </div></a>
-  
-  <a href="https://www.sparkdev.me/package/com.spark.ants"><div class="grid_cell">
-    <center>
-    <img class="grid_img" src="img/ants.jpg" alt="img" />
-    <p class="grid_p">Tweak: Ants</p>
-    <p class="grid_t" style="color:#000000">tweak tạo những chú kiến con bò trên màn hình</p>
-    </center>
-    <br />
-  </div></a>
-
-  <a href="https://repo.packix.com/package/com.vitataf.homegesture/"><div class="grid_cell">
-    <center>
-    <img class="grid_img" src="img/homegesture.jpg" alt="img" />
-    <p class="grid_p">Tweak: Homegesture</p>
-    <p class="grid_t" style="color:#000000">mang tính năng đa nhiệm ipX lên các ip khác ios>=11</p>
-    </center>
-    <br />
-  </div></a>
-  
-  <a href="https://repo.packix.com/package/com.ioscreatix.littlex/"><div class="grid_cell">
-    <center>
-    <img class="grid_img" src="img/littlex.jpg" alt="img" />
-    <p class="grid_p">Tweak: LittleX</p>
-    <p class="grid_t" style="color:#000000">đem tính năng của ipX lên các ip khác ios>=11</p>
-    </center>
-    <br />
-  </div></a>
-  
-   <a href="https://repo.chariz.io/package/com.spark.snowboard/screenshots"><div class="grid_cell">
-    <center>
-    <img class="grid_img" src="img/snowboard.jpg" alt="img" />
-    <p class="grid_p">Tweak: Snowboard</p>
-    <p class="grid_t" style="color:#000000">theming tuyệt vời tương thích ios 7-11.4(b3)</p>
-    </center>
-    <br />
-  </div></a>
-  
-   <a href="http://squ1dd13.tk/repo/"><div class="grid_cell">
-    <center>
-    <img class="grid_img" src="img/glacier.jpg" alt="img" />
-    <p class="grid_p">Tweak: glacier</p>
-    <p class="grid_t" style="color:#000000">tweak làm trong suốt ControlCenter ios >=11</p>
-    </center>
-    <br />
-  </div></a>
-  
-  <a href="http://cydia.saurik.com/package/com.r333d.cylinder/"><div class="grid_cell">
-    <center>
-    <img class="grid_img" src="img/cylinder.jpg" alt="img" />
-	<p class="grid_p">Tweak: Cylinder</p>
-    <p class="grid_t" style="color:#000000">tweak tạo hiệu ứng chuyển trang ios 7-11</p>
-    </center>
-    <br />
-  </div></a>
-  
-  <a href="https://repo.packix.com/package/org.s1ris.spinxi/"><div class="grid_cell">
-    <center>
-    <img class="grid_img" src="img/spinXI.jpg" alt="img" />
-    <p class="grid_p">Tweak: SpinXI</p>
-    <p class="grid_t" style="color:#000000">thay đổi giao diên phát nhạc LS ios 10-11</p>
-    </center>
-    <br />
-  </div></a>
-  
-  <a href="https://ib-soft.net/"><div class="grid_cell">
-    <center>
-    <img class="grid_img" src="img/icleaner.gif" alt="img" />
-    <p class="grid_p">Tweak: icleaner</p>
-    <p class="grid_t" style="color:#000000">tweak dọn rác nổi tiếng trên ios 5-11</p>
-    </center>
-    <br />
-  </div></a>
-  
-
-  
-
-
-			<!--star footer -->
-            <footer class="footer-area section-gap">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-					
-								<h3>About Me</h3>
-								<p>
-								<br>Name: Mrthu@n
-								<br>Country: Viet Nam
-								<br>Phone:+84 981 801 810
-								<br>Email:thuanvodka@gmail.com
-								</p>
-								<p class="footer-text">
-                                copyright © 2018 | made by <a href="https://twitter.com/thuanvodka" target="_blank">Thu@nVN</a>
-								</p>
-                             								
-							</div>
-						</div>						
-					</div>
-				</div>
-			</footer>
-  
-  
-</div>
-				<script src="js/main.js"></script>
-				<script src="js/jquery-3.2.1.min.js"></script>
-				
 </body>
 </html>
