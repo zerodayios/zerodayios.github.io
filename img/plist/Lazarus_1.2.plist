@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://www.dropbox.com/s/mgqjfpxojyun9w8/Lazarus_1.2.ipa?dl=1</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://cystorekit.github.io/img/lazarus.jpg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://cystorekit.github.io/img/lazarus.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>fun.ignition.Lazarus2</string>
+				<key>bundle-version</key>
+				<string>420.4.20</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>Lazarus</string>
+				<key>title</key>
+				<string>Lazarus</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
