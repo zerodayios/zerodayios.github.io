@@ -1,0 +1,15 @@
+Package: com.csk.elitetime
+Name: Elite Time
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Elite Time for your Lock Screen
+Author: AussieAppz 
+Section: Widgets
+Maintainer: Mrthu4n_vn
+Depiction: https://zerodayios.github.io/depictions/com.csk.elitetime/elitetime.html
+Filename: ./debs/com.csk.elitetime_1.0_iphoneos-arm.deb
+Size: 1025700
+MD5sum: f769c3b588914b705e561f3a095d3b75
+SHA1: d34c04864ad2fe06887c188a2a4fd070d2ca9432
+SHA256: c6526bd6b4dd62468662a4c449ba88c755eac06254395adcff49411d87e41890
+SileoDepiction: https://zerodayios.github.io/depictions/com.csk.elitetime/elitetime.json

@@ -1,0 +1,85 @@
+{
+    "minVersion": "0.1",
+    "tabs": [
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "itemCornerRadius": 4,
+            "itemSize": "{187.5, 333.5}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://zerodayios.github.io/depictions/com.csk.elitetime/1.jpg"
+              }
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "markdown": "widget fos LS & HS \"prime\" based on a /r/TweakBounty request.\n\nChanges recent call-log title color based on type of call:\n- <b style=\"color:#24579C\">Blue</b> for incoming calls\n- <b style=\"color:#007D00\">Green</b> for outgoing calls\n- <b style=\"color:#DA0000\">Red</b> for missed calls\n\nColors are configurable in the settings app.\n\nThis project is [open source](https://github.com/leftyfl1p/Elite).",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Metadata",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Latest Version",
+            "text": "1.0",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Last Updated",
+            "text": "06-05-2019",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Compatibility",
+            "text": "iOS 9 - 12",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Social Links",
+            "class": "DepictionHeaderView"
+          },
+
+          {
+            "title": "Twitter",
+            "action": "https://twitter.com/",
+            "class": "DepictionTableButtonView"
+          },
+   
+          {
+            "spacing": 8,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+      {
+        "tabname": "Changelog",
+        "views": [
+          {
+            "title": "Version 1.0",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "support for iOS 12",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+        ],
+        "class": "DepictionStackView"
+      }
+    ],
+    "class": "DepictionTabView"
+  }
