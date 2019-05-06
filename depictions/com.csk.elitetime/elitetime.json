@@ -16,7 +16,7 @@
             "class": "DepictionScreenshotsView"
           },
           {
-            "markdown": "widget fos LS & HS \"prime\" based on a /r/TweakBounty request.\n\nChanges recent call-log title color based on type of call:\n- <b style=\"color:#24579C\">Blue</b> for incoming calls\n- <b style=\"color:#007D00\">Green</b> for outgoing calls\n- <b style=\"color:#DA0000\">Red</b> for missed calls\n\nColors are configurable in the settings app.\n\nThis project is [open source](https://github.com/leftyfl1p/Elite).",
+            "markdown": "widget fos LS & HS :\n- <b style=\"color:#24579C\">Blue</b> tác giả AussieAppz. \n\nThis project is [open source](https://github.com/).",
             "useSpacing": true,
             "class": "DepictionMarkdownView"
           },
